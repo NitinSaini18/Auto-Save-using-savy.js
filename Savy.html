@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Save</title>
+</head>
+<body>
+    <div class = 'auto-save' id = "d">
+            <h3 class = "auto-save" id = "abc" contenteditable="true">Nitin Saini</h3>
+                
+<input type="text" id="xg" class="auto-save">
+            <p class = "auto-save" id = "xyz" contenteditable="true">I am Engineer</p><br>            
+            <textarea name="" id="" rows="8" cols="80" class="auto-save"></textarea>
+           
+    </div>
+
+
+</body>
+
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="savy.js"></script>
+<script>
+    $('.auto-save').savy('load',function(){
+        console.log("All data from savy are loaded");
+
+    });
+
+</script>
+
+</html>
